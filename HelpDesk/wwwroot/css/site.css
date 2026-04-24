@@ -1,0 +1,477 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}*/
+
+/*.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}*/
+
+/*html {
+  position: relative;
+  min-height: 100%;
+}*/
+
+/*body {
+  margin-bottom: 60px;
+}*/
+
+/*.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}*/
+
+/* Загальні стилі */
+/*body {
+    background-color: #575655;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}*/
+
+/* Заголовки */
+/*h2, h4 {
+    font-weight: 600;
+    color: #343a40;
+}*/
+
+/* Картки */
+/*.card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }*/
+
+/* Таблиця */
+/*.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+    .table thead {
+        background-color: #f1f3f5;
+        font-weight: 600;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}*/
+
+/* Кнопки */
+/*.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    border: none;
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #0a58ca, #084298);
+    }
+
+.btn-success {
+    background: linear-gradient(135deg, #198754, #157347);
+    border: none;
+}
+
+    .btn-success:hover {
+        background: linear-gradient(135deg, #157347, #0f5132);
+    }
+
+.btn-warning {
+    background: linear-gradient(135deg, #ffc107, #e0a800);
+    border: none;
+    color: #212529;
+}
+
+    .btn-warning:hover {
+        background: linear-gradient(135deg, #e0a800, #c69500);
+        color: #fff;
+    }
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #bb2d3b);
+    border: none;
+}
+
+    .btn-danger:hover {
+        background: linear-gradient(135deg, #bb2d3b, #9a1f2d);
+    }*/
+
+/* Бейджі статусів */
+/*.badge {
+    font-size: 0.85rem;
+    padding: 0.5em 0.75em;
+    border-radius: 0.5rem;
+}
+
+    .badge.bg-info {
+        background: linear-gradient(135deg, #0dcaf0, #0bb5d6);
+        color: #fff;
+    }*/
+
+/* Форми */
+/*.form-control, .form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    }*/
+
+/* Валідація */
+/*.text-danger {
+    font-size: 0.85rem;
+}*/
+
+
+
+/* Для кастомних стилів */
+
+
+/*html {
+    font-size: 16px;
+}
+
+@media (min-width: 350px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}*/
+
+/* ===== Загальні стилі ===== */
+/*body {
+    background-color: #9c9c9c;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+    body.bg-light {
+        background-color: #9c9c9c;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: #343a40;
+    }*/
+
+/* ===== Заголовки ====== */
+/*h2, h4 {
+    font-weight: 600;
+    color: #343a40;
+}*/
+
+/* ===== Навбар ===== */
+/*.navbar {
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-light.bg-light {
+    background-color: #9c9c9c !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #0d6efd !important;
+    transition: color 0.2s ease;
+}
+
+    .navbar-brand:hover {
+        color: #0a58ca !important;
+    }
+
+.nav-link {
+    font-weight: 500;
+    color: #343a40 !important;
+    transition: color 0.2s ease;
+}
+
+    .nav-link:hover {
+        color: #0d6efd !important;
+    }*/
+
+/* ===== Основний контейнер ===== */
+/*.container {
+    max-width: 1800px;
+    background-color: #9c9c9c
+}
+
+main {
+    background-color: #9c9c9c;
+    border-radius: 0.75rem;
+    margin: 0 0;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}*/
+
+/* ===== Footer ===== */
+/*.footer {
+    background-color: #9c9c9c;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+    .footer a {
+        color: #6c757d;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }*/
+
+/* ===== Кнопки ===== */
+/*.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    border: none;
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #0a58ca, #084298);
+    }
+
+.btn-success {
+    background: linear-gradient(135deg, #198754, #157347);
+    border: none;
+}
+
+    .btn-success:hover {
+        background: linear-gradient(135deg, #157347, #0f5132);
+    }
+
+.btn-warning {
+    background: linear-gradient(135deg, #ffc107, #e0a800);
+    border: none;
+    color: #212529;
+}
+
+    .btn-warning:hover {
+        background: linear-gradient(135deg, #e0a800, #c69500);
+        color: #fff;
+    }
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #bb2d3b);
+    border: none;
+}
+
+    .btn-danger:hover {
+        background: linear-gradient(135deg, #bb2d3b, #9a1f2d);
+    }*/
+
+/* ===== Таблиці ===== */
+/*.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+    .table thead {
+        background-color: #f1f3f5;
+        font-weight: 600;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}*/
+
+/* ===== Картки ===== */
+/*.card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+.card-header {
+    font-weight: 600;
+}*/
+
+/* ===== Форми ===== */
+/*.form-control, .form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    }*/
+
+/* ===== Бейджі ===== */
+/*.badge {
+    font-size: 0.85rem;
+    padding: 0.5em 0.75em;
+    border-radius: 0.5rem;
+}
+
+    .badge.bg-info {
+        background: linear-gradient(135deg, #0dcaf0, #0bb5d6);
+        color: #fff;
+    }*/
+
+/* ===== Загальні стилі ===== */
+body, body.bg-light {
+    background-color: #9c9c9c;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #212529; /* темніший текст для контрасту */
+}
+
+/* ===== Навбар ===== */
+.navbar {
+    border-radius: 0.5rem;
+    background-color: #9c9c9c !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #0d6efd !important;
+}
+
+    .navbar-brand:hover {
+        color: #0a58ca !important;
+    }
+
+.nav-link {
+    font-weight: 500;
+    color: #212529 !important;
+}
+
+    .nav-link:hover {
+        color: #0d6efd !important;
+    }
+
+/* ===== Основний контейнер ===== */
+.container {
+    max-width: 1600px;
+    background-color: #9c9c9c;
+}
+
+main {
+    background-color: #9c9c9c;
+    border-radius: 0.75rem;
+    margin: 0;
+    padding: 1.5rem;
+    box-shadow: none; /* прибрав світлу тінь */
+}
+
+/* ===== Footer ===== */
+.footer {
+    background-color: #9c9c9c;
+    font-size: 0.9rem;
+    color: #212529;
+}
+
+    .footer a {
+        color: #212529;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+/* ===== Таблиці ===== */
+.table {
+    border-radius: 0.5rem;
+    background-color: #9c9c9c;
+    color: #212529;
+}
+
+    .table thead {
+        background-color: #7a7a7a; /* темніший відтінок для заголовків */
+        color: #fff;
+        font-weight: 600;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #8a8a8a; /* темно-сірий hover */
+}
+
+/* ===== Картки ===== */
+.card {
+    border-radius: 0.75rem;
+    background-color: #9c9c9c;
+    color: #212529;
+    border: 1px solid #7a7a7a;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+.card-header {
+    font-weight: 600;
+    background-color: #7a7a7a;
+    color: #fff;
+}
+
+/* ===== Форми ===== */
+.form-control, .form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #6c757d;
+    background-color: #b0b0b0;
+    color: #212529;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    }
+
+/* ===== Кнопки ===== */
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+/* залишив градієнти як є, вони добре контрастують на сірому */
+
+/* ===== Бейджі ===== */
+.badge {
+    font-size: 0.85rem;
+    padding: 0.5em 0.75em;
+    border-radius: 0.5rem;
+}
+
+    .badge.bg-info {
+        background: linear-gradient(135deg, #0dcaf0, #0bb5d6);
+        color: #fff;
+    }
